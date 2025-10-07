@@ -1,0 +1,27 @@
+# Ignorar ejecutables y binarios
+*.out
+*.exe
+*.o
+*.obj
+
+# Ignorar archivos de depuración
+*.log
+*.stackdump
+
+# Ignorar archivos temporales o compilados
+*.a
+*.so
+*.dll
+
+# Ignorar carpetas generadas por compilación
+/build/
+/bin/
+/debug/
+/release/
+
+# Ignorar archivos de Visual Studio Code
+.vscode/
+
+# Ignorar archivos de sistema (Windows / Linux / macOS)
+.DS_Store
+Thumbs.db
